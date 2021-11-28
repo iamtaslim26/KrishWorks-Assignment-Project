@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StduentsActivity">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/students_id_text"
+        android:layout_width="match_parent"
+        android:hint="Students Id"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="20dp"
+        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/students_name_text"
+        android:layout_width="match_parent"
+        android:hint="Students Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="20dp"
+        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/students_mARKS_text"
+        android:layout_width="match_parent"
+        android:hint="MARKS"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="20dp"
+        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"/>
+
+   <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+    android:text="Add "
+    android:layout_gravity="center"
+    android:id="@+id/add_btn"/>
+
+
+
+</LinearLayout>
